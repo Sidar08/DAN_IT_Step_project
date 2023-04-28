@@ -31,7 +31,7 @@ function loadMore() {
   let imagesGrid = document.querySelector(".AmazingWork-grid");
   arrImgs.forEach(function (item) {
     let img = new Image();
-    img.src = `./graphic-design/${item}`;
+    img.src = `./img/graphic-design/${item}`;
     imagesGrid.append(img);
   });
 
@@ -72,7 +72,7 @@ let img = document.querySelectorAll(".img");
 
 function loadWebDesign() {
    for (i = 0; i < img.length; i++) {
-     img[i].setAttribute("src", `./web_design/${arrWebDesign[i]}`);
+     img[i].setAttribute("src", `./img/web_design/${arrWebDesign[i]}`);
    } 
 }
 
@@ -94,7 +94,7 @@ let arrWordpress = [
 function loadWordpress() {
   
     for (i = 0; i < img.length; i++) {
-      img[i].setAttribute("src", `./wordpress/${arrWordpress[i]}`);
+      img[i].setAttribute("src", `./img/wordpress/${arrWordpress[i]}`);
     } 
 }
 
@@ -115,7 +115,7 @@ let arrLandingPages = [
 
 function loadLandingPages() {
   for (i = 0; i < img.length; i++) {
-    img[i].setAttribute("src", `./landing-page/${arrLandingPages[i]}`);
+    img[i].setAttribute("src", `./img/landing-page/${arrLandingPages[i]}`);
   }
 }
 
@@ -136,7 +136,7 @@ let arrGraphicDesign = [
 
 function loadGraphicDesign() {
   for (i = 0; i < img.length; i++) {
-    img[i].setAttribute("src", `./graphic-design/${arrGraphicDesign[i]}`);
+    img[i].setAttribute("src", `./img/graphic-design/${arrGraphicDesign[i]}`);
   }
 }
 
@@ -157,6 +157,6 @@ let arrAll = [
 
 function loadAll() {
   for (i = 0; i < img.length; i++) {
-    img[i].setAttribute("src", `./grid-icon/${arrAll[i]}`);
+    img[i].setAttribute("src", `./img/grid-icon/${arrAll[i]}`);
   }
 }
